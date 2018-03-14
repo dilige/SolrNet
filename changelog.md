@@ -14,7 +14,7 @@ This is a test branch
 
 ## 1.0.5
 - SolrNet Cloud: add checks if Zookeeper connection is valid
-
+Third commit
 ## 1.0.4 (2018-02-04)
 - Add `netstandard 2.0` support to `Ninject.Integration.SolrNet`
 - Add `netstandard 2.0` support to `AutofacContrib.SolrNet`
