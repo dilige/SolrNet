@@ -1,20 +1,20 @@
 # Change Log
 
+First commit
 ## 1.0.7
 - Fix: Parsing error when spellcheck.extendedResults=true #398 (@ariasjose)
 - Tweaked the AutoSolrConnection `MaxUriLength`.
 - Fix: AtomicUpdate async doesn't work due to stream being closed prematurely #401
-- Use AutoSolrConnection instead of SolrConnection in StructureMap.SolrNetIntegration #400 (@chyczewski-maciej)
-
-This is a commit in the other branch
-
-## 1.0.6 
-- New: `AutoSolrConnection`, automatically uses `GET` or `POST` depending on uri length. Improved performance when using `async` methods. 
+Second commit
+## 1.0.6
+- New: `AutoSolrConnection`, automatically uses `GET` or `POST` depending on uri length. Improved performance when using `async` methods.
 - Add `netstandard 2.0` support to `Unity.SolrNetIntegration`
 
-## 1.0.5 
-- SolrNet Cloud: add checks if Zookeeper connection is valid
+This is a test branch
 
+## 1.0.5
+- SolrNet Cloud: add checks if Zookeeper connection is valid
+Third commit
 ## 1.0.4 (2018-02-04)
 - Add `netstandard 2.0` support to `Ninject.Integration.SolrNet`
 - Add `netstandard 2.0` support to `AutofacContrib.SolrNet`
@@ -22,7 +22,7 @@ This is a commit in the other branch
 ## 1.0.3 (2018-02-05)
 - Add `netstandard 2.0` support to `StructureMap.SolrNetIntegration` #376 (@ciprianmo)
 - Fix: Attempting to add duplicate SolrField should give a more helpful error #380
- 
+
 ## 1.0.2 (2018-01-24)
 - Fix: Error when collations contain duplicates #373 (@ariasjose)
 - House keeping: move to new csproj format. Merge nuspec files into csproj. #374
@@ -66,7 +66,7 @@ This is a commit in the other branch
 ## 0.6.1 (2017-08-15)
 - Upgraded all projects to .NET 4.6
 - Upgraded Ninject to 3.2.2
-- Upgraded CommonServiceLocator to 1.3 
+- Upgraded CommonServiceLocator to 1.3
 - Upgraded Autofac to 4.6.1.0
 
 ## 0.5.1
@@ -217,7 +217,7 @@ This is a commit in the other branch
 
 - Bugfix: semicolons are now correctly escaped in queries.
 - Bugfix: invalid xml characters (control chars) are now correctly filtered.
-- Deleting a list (IEnumerable) of documents now uses a single request (requires unique key and Solr 1.3+) 
+- Deleting a list (IEnumerable) of documents now uses a single request (requires unique key and Solr 1.3+)
 - Added support for arbitrary parameters, using the QueryOptions.ExtraParams dictionary.
 - Added per-field facet parameters.
 - Breaking change: as a consequence of the previous change, facet queries and other facet parameters were moved to FacetParameters.
@@ -239,17 +239,17 @@ This is a commit in the other branch
 
 - Major rewrite
 - Deprecated ISolrDocument interface
-- Dropped query by example 
+- Dropped query by example
 - Dropped random sorting
 - Added several ways to map solr fields to properties
-- Added highlighting 
-- Added filter queries 
-- Added ping 
-- Added sample application 
-- Added Windsor facility 
-- Added Ninject module 
-- Added operator overloading for queries 
-- Added MSDN-style docs 
+- Added highlighting
+- Added filter queries
+- Added ping
+- Added sample application
+- Added Windsor facility
+- Added Ninject module
+- Added operator overloading for queries
+- Added MSDN-style docs
 - Added more code samples, better organized wiki
 - Changed initialization and instantiation of the service
 
