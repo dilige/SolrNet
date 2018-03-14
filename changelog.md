@@ -11,7 +11,7 @@ Second commit
 - Add `netstandard 2.0` support to `Unity.SolrNetIntegration`
 
 This is a test branch
-
+This is the rebase message
 ## 1.0.5
 - SolrNet Cloud: add checks if Zookeeper connection is valid
 Third commit
