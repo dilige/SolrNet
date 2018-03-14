@@ -1,5 +1,5 @@
 # Change Log
-
+Something to try
 First commit
 ## 1.0.7
 - Fix: Parsing error when spellcheck.extendedResults=true #398 (@ariasjose)
