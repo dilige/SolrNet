@@ -6,6 +6,8 @@
 - Fix: AtomicUpdate async doesn't work due to stream being closed prematurely #401
 - Use AutoSolrConnection instead of SolrConnection in StructureMap.SolrNetIntegration #400 (@chyczewski-maciej)
 
+This is a commit in the other branch
+
 ## 1.0.6 
 - New: `AutoSolrConnection`, automatically uses `GET` or `POST` depending on uri length. Improved performance when using `async` methods. 
 - Add `netstandard 2.0` support to `Unity.SolrNetIntegration`
